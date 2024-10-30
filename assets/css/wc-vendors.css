@@ -1,0 +1,66 @@
+/* WC Vendors Taxes settings form CSS */
+.wcv-tax-hidden {
+    display: none;
+}
+
+.wcv-grid table#nexus_addresses_table {
+    margin-bottom: 0;
+    table-layout: fixed;
+}
+
+#nexus_addresses_table input, #nexus_addresses_table select {
+    max-width: 100%;
+}
+
+#nexus_addresses_table select, #nexus_addresses_table .select2-container {
+    height: 43px;
+}
+
+#nexus_addresses_table input[readonly], #nexus_addresses_table select[readonly] {
+    background-color: #e9ecef;
+}
+
+#nexus_addresses_table td, #nexus_addresses_table th {
+    padding: 0.5em;
+    vertical-align: middle;
+}
+
+#nexus_addresses_table td.actions, #nexus_addresses_table th.actions {
+    width: 40px;
+}
+
+#nexus_addresses_table td.actions .dashicons {
+    vertical-align: middle;
+}
+
+#nexus_addresses_table tr.default td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#nexus_addresses_table span.address-field {
+    padding: 8px 6px;
+}
+
+.dashicons.has-tip {
+    margin-left: 0.3em;
+    vertical-align: middle;
+}
+
+.mt-control-group {
+    line-height: 2;
+    margin-bottom: 1em;
+}
+
+.mt-control-group label {
+    font-weight: 600;
+}
+
+.mt-tip {
+    margin-left: 8px;
+}
+
+.mt-tip .dashicons {
+    vertical-align: middle;
+}

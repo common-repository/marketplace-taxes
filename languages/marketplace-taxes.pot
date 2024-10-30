@@ -1,0 +1,800 @@
+# Copyright (C) 2020 The Plugin Pros
+# This file is distributed under the same license as the Marketplace Taxes package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketplace Taxes 1.1.7\n"
+"Report-Msgid-Bugs-To: "
+"https://github.com/ThePluginPros/marketplace-taxes/issues\n"
+"POT-Creation-Date: 2020-05-23 15:26:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/admin/class-mt-admin-notices.php:98
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/admin/class-mt-admin-notices.php:102
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/admin/class-mt-admin.php:55
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-mt-admin.php:107
+msgid ""
+"<strong>Marketplace Taxes is being discontinued.</strong> Recent changes in "
+"TaxJar's pricing have made TaxJar cost prohibitive for our target audience, "
+"so we are ending support for Marketplace Taxes on <strong>August 21, "
+"2020</strong>. Please read <a "
+"href='https://thepluginpros.com/2020/05/23/were-ending-support-for-"
+"marketplace-taxes-heres-what-you-can-do/' target='_blank'>our blog "
+"article</a> for more information and for advice on what you can do. We "
+"apologize for any inconvenience this may cause."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Marketplace Taxes"
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:48
+msgid "Use this page to configure sales tax automation for your marketplace."
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:49
+msgid ""
+"Need help? Check out the <a "
+"href=\"https://thepluginpros.com/documentation/taxjar\">documentation</a>"
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:64
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:66
+msgid "Enable automated tax calculations"
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:72
+msgid "Your API token will be used to calculate the correct tax rate at checkout."
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:82
+msgid "Seller of record"
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:86
+msgid "Vendor"
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:87
+msgid "Marketplace"
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:90
+msgid ""
+"The seller of record is responsible for collecting and remitting sales tax "
+"for each sale. The tax collected at checkout will be given to the seller of "
+"record."
+msgstr ""
+
+#: includes/admin/class-mt-wc-integration.php:99
+msgid "Business locations"
+msgstr ""
+
+#: includes/admin/views/html-select-category-bulk.php:9
+#: includes/admin/views/html-select-category.php:28
+msgid "Tax category"
+msgstr ""
+
+#: includes/admin/views/html-select-category-bulk.php:11
+#: includes/class-mt-assets.php:67
+msgid "No change"
+msgstr ""
+
+#: includes/admin/views/html-select-category-bulk.php:14
+#: includes/admin/views/html-select-category.php:44
+#: includes/integrations/dokan/templates/tax-category-dropdown.php:39
+#: includes/integrations/wc-vendors/views/html-field-tax-category.php:27
+msgid "Change"
+msgstr ""
+
+#: includes/admin/views/html-select-category-bulk.php:17
+#: includes/admin/views/html-select-category.php:48
+#: includes/integrations/dokan/templates/tax-category-dropdown.php:42
+#: includes/integrations/wc-vendors/views/html-field-tax-category.php:31
+msgid "Reset"
+msgstr ""
+
+#: includes/admin/views/html-select-category.php:31
+msgid ""
+"Used for products that are either exempt from tax in some jurisdictions or "
+"are taxed at reduced rates. "
+msgstr ""
+
+#: includes/admin/views/html-select-category.php:40
+#: includes/class-mt-assets.php:66
+msgid "None"
+msgstr ""
+
+#: includes/admin/views/html-tax-category-modal.php:16
+msgid "Select"
+msgstr ""
+
+#: includes/admin/views/html-tax-category-modal.php:27
+msgid "Select tax category"
+msgstr ""
+
+#: includes/admin/views/html-tax-category-modal.php:30
+msgid "Close modal panel"
+msgstr ""
+
+#: includes/admin/views/html-tax-category-modal.php:37
+msgid "Start typing to search"
+msgstr ""
+
+#: includes/admin/views/notices/html-notice-custom.php:19
+#: includes/integrations/wc-vendors/views/notices/html-notice-update.php:33
+#: includes/integrations/wc-vendors/views/notices/html-notice-updated.php:20
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-marketplace-taxes.php:144
+#. translators: 1: required plugin name, 2: minimum version
+msgid ""
+"<strong>%1$s needs to be updated.</strong> Marketplace Taxes requires %1$s "
+"%2$s+."
+msgstr ""
+
+#: includes/class-marketplace-taxes.php:155
+#. translators: 1: required plugin name
+msgid ""
+"<strong>%1$s not detected.</strong> Please install or activate %1$s to use "
+"Marketplace Taxes."
+msgstr ""
+
+#: includes/class-marketplace-taxes.php:180
+#. translators: 1 - list of required PHP extensions
+msgid ""
+"<strong>Required PHP extensions are missing.</strong> Marketplace Taxes "
+"requires %1$s."
+msgstr ""
+
+#: includes/class-marketplace-taxes.php:189
+#. translators: 1 - required php version
+msgid ""
+"<strong>PHP needs to be updated.</strong> Marketplace Taxes requires PHP "
+"%1$s+."
+msgstr ""
+
+#: includes/class-mt-addresses.php:80
+msgid "Inherited from your general shop settings"
+msgstr ""
+
+#: includes/class-mt-addresses.php:135
+msgid "Default address"
+msgstr ""
+
+#: includes/class-mt-addresses.php:251
+msgid "%1$s and <a href=\"%4$s\">%2$s other %3$s</a>"
+msgstr ""
+
+#: includes/class-mt-addresses.php:254
+msgid "seller"
+msgid_plural "sellers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-mt-addresses.php:270
+msgid ""
+"<strong>Warning!</strong> %s %s not configured their business addresses. "
+"Taxes will not be calculated for %s."
+msgstr ""
+
+#: includes/class-mt-addresses.php:275
+msgid "has"
+msgid_plural "have"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-mt-addresses.php:276
+msgid "this vendor"
+msgid_plural "these vendors"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-mt-addresses.php:336
+msgid ""
+"<strong>Tax setup incomplete.</strong> Please <a href=\"%s\">complete your "
+"store address</a> to dismiss this notice."
+msgstr ""
+
+#: includes/class-mt-assets.php:65
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:456
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:484
+msgid "Same as parent"
+msgstr ""
+
+#: includes/class-mt-assets.php:96
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: includes/class-mt-assets.php:177
+msgid ""
+"Are you sure you want to dismiss this notice? You won't be warned about "
+"these sellers again."
+msgstr ""
+
+#: includes/class-mt-calculator.php:129
+msgid "%s Shipping"
+msgstr ""
+
+#: includes/class-mt-calculator.php:185
+msgid "Failed to calculate the tax due: %s"
+msgstr ""
+
+#: includes/class-mt-install.php:69
+msgid "%1$s tax rate(s) deleted successfully."
+msgstr ""
+
+#: includes/class-mt-install.php:73
+msgid "Your existing tax rates will be kept."
+msgstr ""
+
+#: includes/class-mt-install.php:106
+msgid ""
+"<strong>Warning!</strong> There are tax rates in your WooCommerce tax "
+"tables. This may cause your customers to be overtaxed. Please choose to <a "
+"href=\"%1$s\">keep</a> or <a href=\"%2$s\">delete</a> the existing tax "
+"rates."
+msgstr ""
+
+#: includes/class-mt-integrations.php:56
+msgid ""
+"<strong>%1$s not detected.</strong> Please install or active %1$s to use "
+"Marketplace Taxes."
+msgstr ""
+
+#: includes/class-mt-integrations.php:70
+msgid ""
+"<strong>%1$s needs to be updated.</strong> Marketplace Taxes requires %1$s "
+"version %2$s or greater."
+msgstr ""
+
+#: includes/class-mt-integrations.php:89
+msgid ""
+"<strong>TaxJar for Marketplace is inactive</strong>. No compatible "
+"marketplace plugin detected."
+msgstr ""
+
+#: includes/class-mt-tax-categories.php:42
+msgid "Once monthly"
+msgstr ""
+
+#: includes/class-mt-tax-categories.php:111
+msgid "Products that don't fall into other categories"
+msgstr ""
+
+#: includes/class-mt-tax-categories.php:112
+msgid "General"
+msgstr ""
+
+#: includes/class-mt-util.php:33
+#: includes/fields/class-mt-field-api-token.php:67
+msgid "The provided API token is invalid."
+msgstr ""
+
+#: includes/class-mt-util.php:35
+#: includes/fields/class-mt-field-api-token.php:69
+msgid "Error connecting to TaxJar."
+msgstr ""
+
+#: includes/class-mt-vendor-settings-form.php:69
+msgid "Use TaxJar for Reporting"
+msgstr ""
+
+#: includes/class-mt-vendor-settings-form.php:94
+msgid ""
+"Please fill out the fields below to ensure that your customers are taxed "
+"correctly."
+msgstr ""
+
+#: includes/fields/class-mt-field-api-token.php:31
+msgid "TaxJar API token"
+msgstr ""
+
+#: includes/fields/class-mt-field-api-token.php:32
+msgid ""
+"<a href=\"https://thepluginpros.com/out/taxjar-api-token\" "
+"target=\"_blank\">Find your API token</a> | <a "
+"href=\"https://thepluginpros.com/out/taxjar\" target=\"_blank\">Register "
+"for TaxJar</a>"
+msgstr ""
+
+#: includes/fields/class-mt-field-business-locations.php:34
+msgid "Business Locations"
+msgstr ""
+
+#: includes/fields/class-mt-field-business-locations.php:35
+msgid ""
+"Please enter all locations, including stores, warehouses, distribution "
+"facilities, etc."
+msgstr ""
+
+#: includes/fields/class-mt-field-business-locations.php:81
+msgid "You must provide at least one business location."
+msgstr ""
+
+#: includes/fields/class-mt-field-business-locations.php:101
+msgid "Select an option..."
+msgstr ""
+
+#: includes/fields/class-mt-field-upload-orders.php:39
+msgid "Sales tax reporting"
+msgstr ""
+
+#: includes/fields/class-mt-field-upload-orders.php:40
+msgid ""
+"Upload orders to <a href=\"https://thepluginpros.com/out/taxjar\" "
+"target=\"_blank\">TaxJar</a> for reporting"
+msgstr ""
+
+#: includes/fields/class-mt-field-upload-orders.php:51
+msgid ""
+"<span style='color: #ff0000;'>There was an error retrieving your keys. "
+"Please disable and re-enable reporting.</span>"
+msgstr ""
+
+#: includes/fields/class-mt-field-upload-orders.php:103
+msgid ""
+"There was an error linking this store to your TaxJar account. Please "
+"contact support@thepluginpros.com"
+msgstr ""
+
+#: includes/fields/class-mt-field-upload-orders.php:114
+msgid ""
+"There was an error unlinking this store from your TaxJar account. Please "
+"contact support@thepluginpros.com"
+msgstr ""
+
+#: includes/integrations/dokan/class-mt-dokan-dashboard.php:60
+msgid "Tax"
+msgstr ""
+
+#: includes/integrations/dokan/class-mt-dokan-dashboard.php:105
+msgid "Are you cheating?"
+msgstr ""
+
+#: includes/integrations/dokan/class-mt-dokan-dashboard.php:127
+msgid "Your information has been saved successfully"
+msgstr ""
+
+#: includes/integrations/dokan/class-mt-dokan-dashboard.php:203
+msgid "A valid API key is required."
+msgstr ""
+
+#: includes/integrations/dokan/class-mt-integration-dokan.php:94
+msgid "Inherited from your store settings."
+msgstr ""
+
+#: includes/integrations/dokan/class-mt-integration-dokan.php:188
+#: includes/integrations/wc-vendors/class-mt-integration-wc-vendors.php:294
+msgid "Enter a complete store address"
+msgstr ""
+
+#: includes/integrations/dokan/class-mt-integration-dokan.php:195
+#: includes/integrations/wc-vendors/class-mt-integration-wc-vendors.php:307
+msgid "Review your tax settings"
+msgstr ""
+
+#: includes/integrations/dokan/templates/tax-category-dropdown.php:21
+msgid ""
+"For products that are exempt from tax in some jurisdictions or taxed at "
+"reduced rates."
+msgstr ""
+
+#: includes/integrations/dokan/templates/tax-category-dropdown.php:29
+#: includes/integrations/wc-vendors/views/html-field-tax-category.php:19
+msgid "Tax Category"
+msgstr ""
+
+#: includes/integrations/dokan/templates/tax-category-dropdown.php:35
+#: includes/integrations/wc-vendors/views/html-field-tax-category.php:23
+msgid "Loading..."
+msgstr ""
+
+#: includes/integrations/dokan/templates/tax-settings-form.php:30
+msgid "Update Settings"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-integration-wc-vendors.php:97
+msgid "Inherited from your store settings"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-integration-wc-vendors.php:113
+msgid "Inherited from your shipping settings"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-admin.php:43
+#: includes/integrations/wc-vendors/views/html-admin-tax-settings-page.php:15
+msgid "Tax Settings"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-admin.php:44
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:66
+msgid "Taxes"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-admin.php:67
+msgid "Settings saved."
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:150
+msgid ""
+"A custom product variation template is in use. Tax category assignment "
+"won't work for variations."
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:234
+msgid "Store Country"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:250
+msgid "Store Address"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:251
+msgid "Street Address"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:263
+msgid "Apartment, unit, suite etc."
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:275
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:276
+msgid "City / Town"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:288
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:289
+msgid "State / County"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:301
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-dashboard.php:302
+msgid "Postcode / Zip"
+msgstr ""
+
+#: includes/integrations/wc-vendors/class-mt-wc-vendors-settings-manager.php:108
+msgid "This field is disabled while Marketplace Taxes is active."
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/html-field-tax-category.php:39
+msgid ""
+"Used for products that are either exempt from tax in some jurisdictions or "
+"are taxed at reduced rates."
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/notices/html-notice-update.php:22
+msgid "Your vendor orders need to be updated."
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/notices/html-notice-update.php:24
+msgid ""
+"Marketplace Taxes needs to update your database to ensure that transaction "
+"data imported into TaxJar is accurate."
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/notices/html-notice-update.php:30
+msgid "Run the update"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/notices/html-notice-update.php:42
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/notices/html-notice-update.php:50
+msgid ""
+"Are you sure you want to skip the database update? Your vendors will only "
+"be able to import new orders into TaxJar."
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/notices/html-notice-updated.php:23
+msgid ""
+"Marketplace Taxes data update complete. The updated orders will be imported "
+"into TaxJar within 24 hours."
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/notices/html-notice-updating.php:17
+msgid "Marketplace Taxes data update"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/notices/html-notice-updating.php:18
+msgid "Your vendor sub orders are being updated in the background. "
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/notices/html-notice-updating.php:21
+msgid "Taking a while? Click here to run it now."
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:63
+msgid "Any"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:99
+msgid "Remove"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:131
+msgid "SKU"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:168
+msgid "Enabled"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:178
+msgid "Downloadable"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:188
+msgid "Virtual"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:199
+msgid "Manage stock?"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:219
+msgid "Regular Price:"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:227
+msgid "Variation price (required)"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:235
+msgid "Sale Price:"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:243
+msgid "Schedule"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:253
+msgid "Sale start date:"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:271
+msgid "Sale end date:"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:286
+msgid "Cancel schedule"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:302
+msgid "Stock Qty:"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:315
+msgid "Allow Backorders?"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:340
+msgid "Stock status"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:373
+msgid "Weight"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:397
+msgid "Dimensions (L&times;W&times;H)"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:450
+msgid "Shipping class:"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:480
+msgid "Tax class:"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:512
+msgid "Variation Description:"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:541
+msgid "Downloadable Files"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:547
+msgid "Name"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:550
+msgid "File URL"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:594
+msgid "Add File"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:610
+msgid "Download Limit:"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:615
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:629
+msgid "Unlimited"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:624
+msgid "Download Expiry:"
+msgstr ""
+
+#: includes/views/html-field-address-table.php:32
+msgid "Address"
+msgstr ""
+
+#: includes/views/html-field-address-table.php:33
+msgid "Country"
+msgstr ""
+
+#: includes/views/html-field-address-table.php:34
+#: includes/views/html-field-address-table.php:91
+msgid "State"
+msgstr ""
+
+#: includes/views/html-field-address-table.php:35
+#: includes/views/html-field-address-table.php:97
+msgid "City"
+msgstr ""
+
+#: includes/views/html-field-address-table.php:36
+#: includes/views/html-field-address-table.php:102
+msgid "Postcode"
+msgstr ""
+
+#: includes/views/html-field-address-table.php:45
+msgid "Add Address"
+msgstr ""
+
+#: includes/views/html-field-address-table.php:63
+msgid "No addresses entered."
+msgstr ""
+
+#: includes/views/html-field-address-table.php:64
+msgid "Add one."
+msgstr ""
+
+#: includes/views/html-field-address-table.php:76
+msgid "Street address"
+msgstr ""
+
+#: includes/views/html-field-address-table.php:232
+msgid "At least one business address is required."
+msgstr ""
+
+#: marketplace-taxes.php:57
+msgid "WooCommerce"
+msgstr ""
+
+#: templates/address-notice.php:18
+msgid "Tax setup incomplete."
+msgstr ""
+
+#: templates/address-notice.php:20
+msgid ""
+"Please complete the following steps to ensure your customers are taxed "
+"correctly:"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/ThePluginPros/marketplace-taxes"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Connect your WooCommerce based marketplace to <a "
+"href=\"https://thepluginpros.com/out/taxjar\" target=\"_blank\">TaxJar</a> "
+"to automate sales tax calculations, reporting, and filing."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "The Plugin Pros"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://thepluginpros.com"
+msgstr ""
+
+#: includes/class-mt-assets.php:100
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr ""
+
+#: includes/class-mt-assets.php:105
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+
+#: includes/class-mt-assets.php:110
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: includes/class-mt-assets.php:115
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: includes/class-mt-assets.php:120
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: includes/class-mt-assets.php:125
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: includes/class-mt-assets.php:130
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: includes/class-mt-assets.php:135
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: includes/class-mt-assets.php:140
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: includes/class-mt-assets.php:145
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: includes/class-mt-assets.php:150
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: includes/class-mt-assets.php:155
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:260
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr ""
+
+#: includes/integrations/wc-vendors/views/partials/wcvendors-pro-product-variation.php:278
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr ""
